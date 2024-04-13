@@ -1,0 +1,25 @@
+/* Custom text colors */
+[class*=messageContent] :is(h1, h2, h3) { /* # text */
+  color: #9176D0;
+}
+[class*=messageContent] strong { /*bold text */
+    color: #7398E7;
+}
+[class*=messageContent] em { /*italcs*/
+    color: #ff0000;
+}
+[class*=messageContent] s { /*slash*/
+    color: #ffFF00;
+}
+body .cozy_f5c119 /* terminal box */ 
+.messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312) code, #app-mount .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312) code {
+    background: rgb(0 0 0);
+    border: none;
+}
+[class*=messageContent] code { /*terminal-words*/
+    color: #00ff00;
+}
+[class*=messageContent] { /* regular text */
+    color: #BDF7FF;
+}
+
